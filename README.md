@@ -5,16 +5,20 @@ Any changes made to nlu.md file should be reflected back in domain.yml and stori
 
 # Terminal
 Initialize rasa in the same workspace
-> rasa init
-> cd TimeZoneBot
-> rasa shell
+```
+rasa init
+cd TimeZoneBot
+rasa shell
+```
 
 Start the endoints with the following code:
-> rasa run actions
+```rasa run actions```
 
 ### If you made any edits to the file remember to retrain the model
-> rasa train
-> rasa shell
+```
+rasa train
+rasa shell
+```
 
 ### To check the confidence of the keywords/intents
-> rasa shell nlu
+```rasa shell nlu ```
