@@ -5,6 +5,10 @@
 - good morning
 - good evening
 - hey there
+- What's up
+- Wassup
+- Sup
+- Listen bitch
 
 ## intent:goodbye
 - bye
@@ -88,6 +92,10 @@
 - [Toronto](city)
 - [Oslo](city)
 - [Auckland](city)
+- [Pune](city)
+- [Singapore](city)
+- [Jharkhand](city)
+- [Vellore](city)
 
 ## intent:thanks
 - thanks

@@ -14,9 +14,17 @@ intents:
 entities:
   - city
 
+slots:
+  city:
+    type: text
+    auto_fill: True
+
+actions:
+  - action_show_time_zone
+
 responses:
   utter_greet:
-  - text: "Hey there! How are you doing today?"
+  - text: "Aayyy ma bish, howz yo today?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -26,22 +34,22 @@ responses:
   - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Great, Skittle off!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Bye\nAnd Fuck Off"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
   utter_ask_loc:
-  - text: "Tell me the city name so I can find it's timezone"
+  - text: "Tell me the city name bitch, I'm not Dumbeldore"
 
   utter_finding_time_zone:
-  - text: "Hol'up lemme have a look!"
+  - text: "Hol'up lemme contac my hommie at {city}!"
 
   utter_urwelcome:
-  - text: "Hehehehe, mention not! :P"
+  - text: "Fuck off to {city} already! :P"
 
 
 

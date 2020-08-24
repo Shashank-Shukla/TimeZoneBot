@@ -37,6 +37,7 @@
   - utter_ask_loc
 * city_name
   - utter_finding_time_zone
+  - action_show_time_zone
 * thanks
   - utter_urwelcome
   - utter_goodbye
@@ -46,6 +47,7 @@
   - utter_greet
 * find_time_zone_4_location
   - utter_finding_time_zone
+  - action_show_time_zone
 * thanks
   - utter_urwelcome
   - utter_goodbye
