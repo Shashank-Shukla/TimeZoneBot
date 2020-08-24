@@ -29,3 +29,23 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## ask for time zone long
+* greet
+  - utter_greet
+* find_time_zone
+  - utter_ask_loc
+* city_name
+  - utter_finding_time_zone
+* thanks
+  - utter_urwelcome
+  - utter_goodbye
+
+## ask for time zone short
+* greet
+  - utter_greet
+* find_time_zone_4_location
+  - utter_finding_time_zone
+* thanks
+  - utter_urwelcome
+  - utter_goodbye
